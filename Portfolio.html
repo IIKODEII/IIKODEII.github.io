@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Álvaro Ruiz Sánchez, desarrollador de aplicaciones multiplataforma.">
+    <title>Álvaro Ruiz Sánchez | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos básicos y diseño minimalista */
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        /* Degradado de azul en lugar de gris/negro */
+        header {
+            background: linear-gradient(135deg, #1f4f8b, #0f8bc9, #91daff);
+            color: #fff;
+            padding: 150px 20px 40px; /* Ajustar padding para evitar que la foto se corte */
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            margin: 20px 0 0;
+            font-size: 2.5em;
+        }
+        /* Estilo de la imagen corregido */
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            position: absolute;
+            top: 5px;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 5px solid #ffffff00;
+        }
+        nav {
+            margin-top: 30px;
+        }
+        nav a {
+            color: #ddd;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        section h2 {
+            color: #1f4f8b;
+            font-size: 2em;
+            border-bottom: 2px solid #1f4f8b;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .content div {
+            flex: 1;
+            min-width: 280px;
+            margin: 10px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #1f4f8b, #0f8bc9, #91daff);
+            color: #fff;
+        }
+        footer a {
+            color: #00b4d8;
+            text-decoration: none;
+        }
+        .contact a {
+            display: block;
+            color: #00b4d8;
+            text-decoration: none;
+            margin-top: 10px;
+            font-size: 1.1em;
+        }
+        /* Diseño de los logos y habilidades */
+        .skills-logo {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .skills-logo img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        /* Estilo para las habilidades */
+        .skills-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .skills-item img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            nav a {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <!-- Añadir la imagen de perfil corregida -->
+    <img src="Foto_curriculum_con_traje.png" alt="Álvaro Ruiz Sánchez" class="profile-image">
+    <h1>Álvaro Ruiz Sánchez</h1>
+    <nav>
+        <a href="#about">Sobre mí</a>
+        <a href="#skills">Aptitudes</a>
+        <a href="#experience">Formación y Experiencia</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>Sobre mí</h2>
+    <p>Me caracterizo por mi excelente capacidad de organización, dinamismo y entusiasmo. Uno de mis mayores fuertes es la resolución de incidencias. Soy desarrollador de aplicaciones multiplataforma con conocimientos sólidos en Java, HTML, CSS, JavaScript, y más.</p>
+</section>
+
+<section id="skills">
+    <h2>Aptitudes</h2>
+    <div class="content">
+        <div>
+            <h3>Lenguajes de programación</h3>
+            <!-- Añadir logos de lenguajes -->
+            <div class="skills-logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java">
+                <span>Java</span>
+            </div>
+            <div class="skills-logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML">
+                <span>HTML</span>
+            </div>
+            <div class="skills-logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS">
+                <span>CSS</span>
+            </div>
+            <div class="skills-logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript">
+                <span>JavaScript</span>
+            </div>
+            <div class="skills-logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" alt="SQL">
+                <span>SQL</span>
+            </div>
+            <div class="skills-logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python">
+                <span>Python</span>
+            </div>
+        </div>
+        <!-- Separar habilidades individuales y nuevos íconos acordes -->
+        <div>
+            <h3>Habilidades</h3>
+            <div class="skills-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/565/565712.png" alt="Flexibilidad">
+                <span>Flexibilidad</span>
+            </div>
+            <div class="skills-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/9602/9602107.png" alt="Adaptabilidad">
+                <span>Adaptabilidad</span>
+            </div>
+            <div class="skills-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/4121/4121044.png" alt="Trabajo en equipo">
+                <span>Trabajo en equipo</span>
+            </div>
+            <div class="skills-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/3562/3562049.png" alt="Compromiso">
+                <span>Compromiso</span>
+            </div>
+            <div class="skills-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/738/738563.png" alt="Responsabilidad">
+                <span>Responsabilidad</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Formación y Experiencia</h2>
+    <div class="content">
+        <div>
+            <h3>Bachillerato</h3>
+            <p>Colegio La Latina (2020-2022), Marbella, Málaga</p>
+        </div>
+        <div>
+            <h3>Desarrollo de Aplicaciones Multiplataforma</h3>
+            <p>MEDAC (2022-2024), Málaga</p>
+        </div>
+        <div>
+            <h3>Programador (WordPress y Android Studio)</h3>
+            <p>Grupo Oro, 3 meses (2024)</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contacto</h2>
+    <div class="contact">
+        <p>Para más información, no dudes en contactarme:</p>
+        <a href="mailto:alvaroruizsanchez222@gmail.com">alvaroruizsanchez222@gmail.com</a>
+        <a href="tel:+34657316238">+34 657 316 238</a>
+        <a href="https://www.linkedin.com/in/álvaro-ruiz-sánchez-in">LinkedIn</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2024 Álvaro Ruiz Sánchez</p>
+</footer>
+
+</body>
+</html>
